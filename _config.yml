@@ -1,0 +1,42 @@
+# Jekyll workshop-template https://github.com/evanwill/workshop-template
+# based on minima theme https://github.com/jekyll/minima
+
+# Site settings
+title: Wizard of Things
+description: > 
+  Learn about the STM32 Arm processors! 
+keywords: "wizard of things, stm32 "
+
+# author settings for cc-by
+author: technomonk
+github_username: technomonk
+twitter_username: 
+pub_year: 2020
+
+# add the full url for the github repository
+repo: "https://github.com/wizard-of-things/wot-site"
+
+# site urls
+# add the url for the domain,
+# on gh-pages follow the pattern: https://username.github.io 
+url: https://wizard-of-things.github.io/
+# add subsection of the domain,
+# on gh-pages this is a / followed by the name of the repository
+baseurl: /wot-site
+
+# add google analytics
+google_analytics:
+
+# defaults (to simplify front matter)
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Build settings
+markdown: kramdown
+
+# Notes: 
+# - fig include, {% include figure.html file="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}
+# - pages with "nav: true" in front matter will be in header nav
