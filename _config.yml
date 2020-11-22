@@ -19,10 +19,10 @@ repo: "https://github.com/wizard-of-things/wot-site"
 # site urls
 # add the url for the domain,
 # on gh-pages follow the pattern: https://username.github.io 
-url: https://wizard-of-things.com/
+url: https://wizard-of-thingsgithub.io
 # add subsection of the domain,
 # on gh-pages this is a / followed by the name of the repository
-# baseurl: /wot-site
+baseurl: /wot-site
 
 # add google analytics
 google_analytics:
